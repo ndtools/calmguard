@@ -2,7 +2,10 @@
   "name": "@calmguard/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "start": "nx run-many --target=serve --projects=web --parallel",
+    "build": "nx run-many --target=build --projects=web --parallel"
+  },
   "private": true,
   "dependencies": {
     "@emotion/react": "11.10.6",
